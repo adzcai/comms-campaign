@@ -2,6 +2,7 @@
 layout: post
 title: "And So It Begins!"
 date: 2019-05-27 00:00:00 -0600
+categories: general
 ---
 ***Creating a NEW Future for OLD Scona***
 

@@ -2,6 +2,7 @@
 layout: post
 title: "My Platform"
 date: 2019-05-27 00:15:00 -0600
+categories: platform
 ---
 
 I. Efficiency — Less is More

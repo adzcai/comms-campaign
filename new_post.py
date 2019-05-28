@@ -15,7 +15,7 @@ with open("./_posts/" + file_name, "w") as file:
   file.write('\n'.join([
     '---',
     'layout: post',
-    'title: ' + name,
+    'title: "' + name + '"',
     'date: ' + now.strftime("%Y-%m-%d %H:%M:%S -0600"),
     '---'
   ]))
