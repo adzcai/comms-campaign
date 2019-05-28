@@ -1,0 +1,26 @@
+---
+---
+@import "{{ site.theme }}";
+
+.site-header {
+  background-color: silver;
+  padding-top: 3vh;
+}
+
+.site-footer {
+  background-color: silver;
+}
+
+.footnotes {
+  @include relative-font-size(0.75);
+}
+
+#home-div {
+  display: flex;
+}
+
+#campaign-poster {
+  width: 50%;
+  height: calc(25% * 4 / 3);
+  float: right;
+}

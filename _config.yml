@@ -16,7 +16,7 @@
 title: Alex Cai for Comms
 email: a.cai6@share.epsb.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my site! My name's Alexander Cai, and I'm running for Comms in the upcoming SU election to create a NEW future for OLD Scona.
+  My name's Alexander Cai, and I'm running for Comms in the upcoming SU election to create a NEW future for OLD Scona. 
   Thanks for your interest in my candidacy! Go ahead and browse this site to learn more about me and my platform. 
 baseurl: ""
 url: "piguyinthesky.github.io"
@@ -43,4 +43,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title

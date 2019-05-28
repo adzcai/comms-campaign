@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Efficiency"
+subtitle: "Less is More"
+date: 2019-05-27 16:30 -0600
+---
+
+<a class="show-button" onclick="showPlatform()">Show Platform Statement</a><br />
+<div id="efficiency-div" style="display: none">
+  In recent years, we've made significant changes to the way we present information with the introduction of OSA This Week, our Daily Bulletin, our Google Calendar, our Facebook posts and pages, posters, club advertisements, etc. If you're a minimalist like me, you might be thinking — wow, that sounds like a lot! Doesn't it get confusing figuring out what goes where?
+
+  <ol class="platform-sub-points">
+    <li>Instead, I will centralize data into an interactive site where all information distributed by SU and school clubs will be posted. This will make it much easier and more effective to access school information. I do not aim for it to replace the existing resources, but it will be a comprehensive page where all of the information can be found.</li>
+    <li>Throughout the year, I also noticed that our main OSA Information group sometimes got cluttered with lost item requests, making it difficult to scroll through and find important information. To fix this, I will create a Google Form and a linked spreadsheet where lost items can be posted without extra clutter. This will ensure that we can keep important Facebook groups and other various streams clutter-free and efficient.</li>
+  </ol>
+</div>
+
+Have you ever faced the problem where you scroll past an interesting event on Facebook, but by the time you decide you want to go, it's been cluttered by requests for lost items or other event advertisements?
+
+<script>
+  function showPlatform() {
+    const div = document.getElementById("efficiency-div");
+    if (div.style.display === "none") {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+</script>

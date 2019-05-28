@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV of Alexander Cai
+title: My CV
 ---
 # ALEXANDER CAI
 
