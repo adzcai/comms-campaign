@@ -15,6 +15,10 @@
   @include relative-font-size(0.75);
 }
 
+.platform-sub-points {
+  list-style-type: upper-alpha;
+}
+
 #home-div {
   display: flex;
 }

@@ -15,6 +15,12 @@
 
     {%- include footer.html -%}
 
+    <script>
+      function toggleVisibility(hiddenId) {
+        const div = document.getElementById(hiddenId);
+        div.style.display = (div.style.display === "none") ? "block" : "none";
+      }
+    </script>
   </body>
 
 </html>

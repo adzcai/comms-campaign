@@ -6,7 +6,7 @@ date: 2019-05-27 16:30 -0600
 categories: platform
 ---
 
-<p><a class="show-button" onclick="showPlatform()">Show Platform Statement</a></p>
+<p><a class="show-button" onclick="toggleVisibility('efficiency-div')">Show Platform Statement</a></p>
 <div id="efficiency-div" style="display: none">
   In recent years, we've made significant changes to the way we present information with the introduction of OSA This Week, our Daily Bulletin, our Google Calendar, our Facebook posts and pages, posters, club advertisements, etc. If you're a minimalist like me, you might be thinking — wow, that sounds like a lot! Doesn't it get confusing figuring out what goes where?
 
@@ -26,15 +26,3 @@ categories: platform
   <li>No more miscommunication! The more places you can get information from, the greater the chances that one of them will be incorrect and cause mass confusion. Before you know it, everybody is frantically texting others the day before the event, and people don't show up because they had the wrong time! By making sure that all information provided is up-to-date and accurate, we can improve attendance at school events and create a more cohesive school community.</li>
   <li>In my last point, I mention keeping track of lost items. Let's be honest, our current system needs work -- our lost and found bins are often overflowing, and it's impractical to dig through each and every one of them when you're looking for something you've lost. By keeping a running track of what we're losing, not only do we make it easier for people who have lost their items to find them, but we can also return items to people who don't even realize they've lost something! This saves everybody from some pointless stress or confusion.</li>
 </ol>
-
-
-<script>
-  function showPlatform() {
-    const div = document.getElementById("efficiency-div");
-    if (div.style.display === "none") {
-      div.style.display = "block";
-    } else {
-      div.style.display = "none";
-    }
-  }
-</script>
