@@ -25,7 +25,7 @@ Engaging with school events and our SU shouldn't be a chore. We certainly have a
 
 The role of a Communications Officer is to communicate information to our entire OSA family. To make sure that everyone has full information about upcoming events around our school, as well as other details such as house points, etc., here are some actions I will take.
 
-  A. **I will ensure that information about all events will be delivered to students across multiple platforms, including Facebook and through a Google Calendar, which will be easily accessible through schoolzone, our school website, etc., and will always be up-to-date with upcoming events**. All other platforms will sync to this calendar to ensure that there are no miscommunications.
+  A. **I will ensure that information about all events will be delivered to students across multiple platforms**, including Facebook and through a Google Calendar, which will be easily accessible through schoolzone, our school website, etc., and will always be up-to-date with upcoming events. All other platforms will sync to this calendar to ensure that there are no miscommunications.
 
   B. A key component of our school environment is our thriving community of clubs of all sorts. **I will remain accountable to all student and school-led clubs by staying in contact with club executives and keeping in touch about events and fundraisers**. The club fair at the start of the year ensures that all students have information about the clubs they are joining. As the year goes on, many students decide to simply stick with one or two; however, this can lead to cluttered facebook groups where it is difficult to keep track of which members are truly active. 
 
