@@ -7,7 +7,9 @@ date: 2019-05-30 6:43:35 -0600
 Hey everybody! To start off the day, I have a testimonial from Elon Wang, a talented mathematician, chess player, and amazing member of our school's badminton team. Here's what he has to say about my candidacy!
 
 > I knew Alexander Cai long before OSA; from numerous math competitions, math camps, and Asian parents. At the time, I only knew one key, undeniable fact about Alex: Genius. He was always the “smart kid,” and his many successes reflect his powerful problem solving skills.
+
 > However, after meeting Alex Cai in person at OSA, I realized his successes come from not just intelligence, but from passionate, hard work. Anyone who knows Alex well can tell you he loves coding. He’s coding in his spares, during lunch, whenever he finds the time! I never seem to be able to catch him being unproductive, and his drive is unlike anyone else’s. If he were to be elected into communications, I can assure you his coding will not stop! He has already developed websites with cool features for his platform, and plans on revolutionizing the current communications through the use of programming.
+
 > Welcome to a world where messenger bots remind you of your classes and automates confusing block switches, and where new and improved platforms provide updated information in a transparent way. Welcome Alex Cai, the hard-working programming genius, into Communications!
 
 Thanks so much, Elon (on his behalf, I'd like to let you know that it's pronounced EH-lon, rhymes with melon)! He's right about my coding -- it's one of the hobbies I'm most passionate about and love to do. And for good reason!
