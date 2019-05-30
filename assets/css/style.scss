@@ -41,3 +41,20 @@
 strong {
   color: blue;
 }
+
+.daily-bulletin {
+  max-width: 100%;
+}
+
+.post-list-heading {
+  margin-top: 3vh;
+}
+
+.sortable-header {
+  cursor: pointer;
+}
+
+.hidden-buttons {
+  width: 50%;
+  float: left;
+}
