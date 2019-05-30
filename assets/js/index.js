@@ -152,3 +152,20 @@ function sortTable(n, byNumber) {
     }
   }
 }
+
+function searchTable() {
+  // Declare variables 
+  let input = document.getElementById("search-exams");
+  let filter = input.value.toUpperCase();
+  let table = document.getElementById("exam-schedule");
+  let rows = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (let i = 0; i < rows.length; i++) {
+    let tds = rows[i].getElementsByTagName("td");
+    for (let td of tds) {
+      let txtValue = td.textContent || td.innerText;
+      rows[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+    } 
+  }
+}
