@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My CV
+permalink: /cv
 ---
 # ALEXANDER CAI
 
