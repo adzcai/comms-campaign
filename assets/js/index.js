@@ -169,3 +169,15 @@ function searchTable() {
     } 
   }
 }
+
+function toggleDarkMode() {
+  localStorage.setItem('mode', (localStorage.getItem('mode') || 'light') === 'dark' ? 'light' : 'dark');
+  document.querySelector('body').classList.toggle('dark')
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  if ((localStorage.getItem('mode') || 'light') === 'dark')
+    document.querySelector('body').classList.add('dark')
+  else
+    document.querySelector('body').classList.remove('dark');
+});

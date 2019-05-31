@@ -74,3 +74,43 @@ strong {
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 3vh; /* Add some space below the input */
 }
+
+body.dark {
+  background-color: rgb(36, 36, 64);
+  color: lightgrey;
+}
+
+body.dark .site-header, body.dark .site-footer {
+  background-color: hsl(246, 24%, 10%);
+}
+
+body.dark .site-title {
+  color: lightslategrey;
+}
+
+body.dark .page-link {
+  color: grey;
+}
+
+body.dark code {
+  background-color: hsl(180, 25%, 12%);
+  color: lightgrey;
+}
+
+body.dark table tbody {
+  color: lightgrey;
+}
+
+body.dark table strong {
+  color: lightskyblue;
+}
+
+body.dark table tbody>tr:nth-child(odd)>td,
+body.dark table tbody>tr:nth-child(odd)>th {
+  background-color: hsl(240, 48%, 18%);
+}
+
+body.dark table tbody>tr:nth-child(even)>td,
+body.dark table tbody>tr:nth-child(even)>th {
+  background-color: darkslateblue;
+}

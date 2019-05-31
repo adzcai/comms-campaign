@@ -2,6 +2,7 @@
 layout: post
 title: "Testimonial from Elon Wang"
 date: 2019-05-30 6:43:35 -0600
+tags: testimony
 ---
 
 Hey everybody! To start off the day, I have a testimonial from Elon Wang, a talented mathematician, chess player, and amazing member of our school's badminton team. Here's what he has to say about my candidacy!
