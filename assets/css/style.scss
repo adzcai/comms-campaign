@@ -19,10 +19,6 @@
   list-style-type: upper-alpha;
 }
 
-#home-div {
-  display: flex;
-}
-
 #campaign-poster {
   width: 50%;
   height: calc(25% * 4 / 3);
@@ -74,6 +70,17 @@ strong {
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 3vh; /* Add some space below the input */
 }
+
+.congrats-div {
+  text-align: center;
+}
+
+#congrats {
+  color: lightblue;
+  display: inline;
+}
+
+// =============== Dark mode ===============
 
 body.dark {
   background-color: rgb(36, 36, 64);

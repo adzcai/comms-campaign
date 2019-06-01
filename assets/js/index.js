@@ -1,83 +1,22 @@
+/// <reference path="../../global.d.ts" />
+
 function toggleVisibility(hiddenId) {
   const div = document.getElementById(hiddenId);
   div.style.display = (div.style.display === "none") ? "block" : "none";
 }
 
-let cnv, system;
+let cnv, system, congrats, sparkleLeft, sparkleRight;
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// A simple Particle class
-class Particle {
-  constructor(position, r=127, g=127, b=127) {
-    this.acceleration = createVector(0, 0.1);
-    this.velocity = createVector(random(-1, 1), random(-2, 0));
-    this.position = position.copy();
-    this.lifespan = 200;
-    this.color = { r, g, b };
-  }
-  
-  run() {
-    this.update();
-    this.display();
-  }
-  
-  // Method to update position
-  update(){
-    this.velocity.add(this.acceleration);
-    this.position.add(this.velocity);
-    this.lifespan -= 2;
-  }
-  
-  // Method to display
-  display() {
-    stroke(200, this.lifespan);
-    strokeWeight(2);
-    fill(this.color.r, this.color.g, this.color.b, this.lifespan);
-    ellipse(this.position.x, this.position.y, 12 * this.lifespan / 255, 12 * this.lifespan / 255);
-  }
-  
-  // Is the particle still useful?
-  isDead(){
-    return this.lifespan < 0;
-  }
-}
-
-class ParticleSystem {
-  constructor(position) {
-    this.origin = position.copy();
-    this.particles = [];
-  }
-
-  burst(x, y, n, r, g, b) {
-    for (let i = 0; i < n; i++) {
-      this.particles.push(new Particle(createVector(x, y), r, g, b))
-    }
-  }
-  
-  addParticle() {
-    this.particles.push(new Particle(this.origin));
-  }
-  
-  run() {
-    for (let i = this.particles.length-1; i >= 0; i--) {
-      let p = this.particles[i];
-      p.run();
-      if (p.isDead()) {
-        this.particles.splice(i, 1);
-      }
-    }
-  }
-}
-
 function setup() {
   cnv = createCanvas(windowWidth, windowHeight);
   cnv.position(0, 0);
-  cnv.style('position', 'fixed');
+  cnv.style('position', 'absolute');
   cnv.style('pointer-events', 'none');
-  system = new ParticleSystem(createVector(width / 2, 50));
+  system = new ParticleSystem();
 }
 
 function mouseClicked() {
@@ -90,6 +29,10 @@ function mouseClicked() {
 
 function draw() {
   clear();
+  if (congrats) {
+    system.burst(sparkleLeft.x, sparkleLeft.y, 3, random(255), random(255), random(255));
+    system.burst(sparkleRight.x, sparkleRight.y, 3, random(255), random(255), random(255));
+  }
   system.run();
 }
 
@@ -181,3 +124,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
   else
     document.querySelector('body').classList.remove('dark');
 });
+
+window.onload = (event) => {  
+  congrats = document.getElementById("congrats");
+  if (congrats) {
+    console.log(congrats.offsetLeft);
+    let parentRect = document.querySelector('.home').getBoundingClientRect();
+    let rect = congrats.getBoundingClientRect();
+    const y = rect.y + rect.height / 2 + window.scrollY;
+    sparkleLeft = { x: rect.x - (rect.x - parentRect.x) / 2, y };
+    sparkleRight = { x: rect.x + rect.width + (rect.x - parentRect.x) / 2, y };
+    console.log(sparkleLeft, sparkleRight);
+  }
+}
